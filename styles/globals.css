@@ -14,3 +14,51 @@ a {
 * {
   box-sizing: border-box;
 }
+
+strong {
+  color: #ff9a8b;
+}
+
+code {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 95%;
+  background-color: rgba(110, 118, 129, 0.4);
+  border-radius: 6px;
+}
+
+p {
+  line-height: 24px;
+}
+
+.hljs {
+  background-color: #1919199d;
+  color: white;
+}
+
+.hljs-keyword {
+  color: cornflowerblue;
+}
+
+.function_ {
+  color: coral;
+}
+
+.hljs-string {
+  color: turquoise;
+}
+
+.class_ {
+  color: aquamarine;
+}
+
+.language-xml .hljs-tag {
+  color: silver;
+}
+.language-xml .hljs-name {
+  color: peru;
+  font-weight: 300;
+}
+.language-xml .hljs-attr {
+  color: violet;
+}
