@@ -18,12 +18,16 @@ interface NavBarProps {
 
 const NavBar: React.FC<NavBarProps> = ({ theme, setTheme }) => {
   const router: NextRouter = useRouter();
+  const pathName: string =
+    typeof router.query.slug === "string" ? router.query.slug : "";
   const toggleTheme = (): void => {
     theme === THEME.DARK ? setTheme(THEME.LIGHT) : setTheme(THEME.DARK);
   };
 
   const pageTitle =
-    router.pathname === "/" ? "~/GC_blog" : `~/GC_blog${router.asPath}`;
+    router.pathname === "/"
+      ? "~/GC_blog"
+      : `~/GC_blog${router.pathname.replace("[slug]", pathName)}`;
 
   return (
     <Styled.Container>

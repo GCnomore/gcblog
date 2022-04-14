@@ -24,5 +24,29 @@ I'll be posting about things I've learned, currently learning, and topics that I
 
 I used to think writing blog will slow me down to grow my skill set as developer, but I changed my mind. <br/>
 This will be my recap of what I learned and I **just feel like** there will be more to take away than this.
+<br/>
+<br/>
 
 **But will someone ever read my blog?...**
+<br/>
+<br/>
+
+## Short term focus and plans
+
+1. Since this is a blog, I will need to write some articles first.
+2. Implement Strapi before the blog gets too big (I wish...)
+3. Sort by category and side menu.
+4. Filter with tags.
+5. Search feature.
+6. Some more stylings and review responsiveness.
+   <br/>
+   <br/>
+   <br/>
+
+**=========EDIT=========**
+<br/>
+Just came with a good reason why I shoud blog.
+
+1. Practice my dying English skill.
+2. Improve my writing skill.
+3. Improve skill to explain tech stuffs to non-tech people.

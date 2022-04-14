@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 interface Theme {
   bg: string;
@@ -22,6 +22,12 @@ export const LIGHT_THEME: Theme = {
   bg: "#f4f4f4",
   fontColor: "#000",
 };
+
+export const GlobalStyles = createGlobalStyle`
+body{
+  background: ${({ theme }: any) => theme.bg};
+}
+`;
 
 export const ACCENT_COLOR: string = "#FF9A8B";
 

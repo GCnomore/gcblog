@@ -23,8 +23,8 @@ const Home: NextPage<HomeProps> = ({ posts }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Styled.IntroSection>
-        This is a beginner friendly tech blog written by a beginner. It is also
-        a recap of my journey as a developer.
+        This is a beginner friendly tech blog written by a beginner.
+        <br /> It is also a recap of my journey as a developer.
         <br /> All critics and corrections are welcome!
         <br />
         <strong>CAUTION: This blog is VERY opinionated.</strong>

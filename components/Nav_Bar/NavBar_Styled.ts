@@ -17,11 +17,15 @@ export const Container = styled.nav`
 
 export const Menu = styled.div`
   color: ${({ theme }) => theme.fontColor};
-  width: 1.5rem;
-  height: 1.5rem;
-  cursor: pointer;
-  &:hover {
-    color: ${ACCENT_COLOR};
+
+  > svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+
+    &:hover {
+      color: ${ACCENT_COLOR};
+    }
   }
 `;
 
@@ -37,22 +41,29 @@ export const TitleContainer = styled.div`
 
 export const Search = styled.div`
   color: ${({ theme }) => theme.fontColor};
-  width: 1.5rem;
-  height: 1.5rem;
-  cursor: pointer;
 
-  &:hover {
-    color: ${ACCENT_COLOR};
+  > svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+
+    &:hover {
+      color: ${ACCENT_COLOR};
+    }
   }
 `;
 
 export const ThemeToggle = styled.div`
   color: ${({ theme }) => theme.fontColor};
-  width: 1.5rem;
-  height: 1.5rem;
-  cursor: pointer;
 
-  &:hover {
-    color: ${ACCENT_COLOR};
+  > svg {
+    width: 1.5rem;
+    height: 1.5rem;
+
+    cursor: pointer;
+
+    &:hover {
+      color: ${ACCENT_COLOR};
+    }
   }
 `;
