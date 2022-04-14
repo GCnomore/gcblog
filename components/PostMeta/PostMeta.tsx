@@ -9,7 +9,7 @@ interface PostMetaProps {
 
 export default function PostMeta({ post }: PostMetaProps) {
   return (
-    <Link href={`/articles/${post.slug}`}>
+    <Link href={`/articles/${post.slug}`} passHref={true}>
       <Styled.Container>
         <div>
           <img

@@ -34,7 +34,7 @@ const NavBar: React.FC<NavBarProps> = ({ theme, setTheme }) => {
       <Styled.Menu>
         <FontAwesomeIcon icon={faBars} />
       </Styled.Menu>
-      <Link href={"/"}>
+      <Link href={"/"} passHref={true}>
         <Styled.TitleContainer>{pageTitle}</Styled.TitleContainer>
       </Link>
       <div>

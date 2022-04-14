@@ -15,8 +15,6 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
-          <script>hljs.initHighlightingOnLoad();</script>
         </body>
       </Html>
     );

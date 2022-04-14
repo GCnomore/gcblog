@@ -28,7 +28,7 @@ const PostPage: React.FC<PostPageProps> = ({
         <title>{title}</title>
       </Head>
       <Styled.BackButton>
-        <Link href="/">
+        <Link href="/" passHref={true}>
           <FontAwesomeIcon icon={faArrowLeft} />
         </Link>
       </Styled.BackButton>
@@ -36,8 +36,8 @@ const PostPage: React.FC<PostPageProps> = ({
         <h1>{title}</h1>
         <div>{date}</div>
         <div>
-          {tag?.split(",").map((item: string) => (
-            <Styled.Tag>{item}</Styled.Tag>
+          {tag?.split(",").map((item: string, index: number) => (
+            <Styled.Tag key={`${item}_${index}`}>{item}</Styled.Tag>
           ))}
         </div>
       </Styled.TitleContainer>
