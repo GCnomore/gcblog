@@ -36,6 +36,7 @@ const Home: NextPage<HomeProps> = ({ posts }) => {
           ))}
         </Styled.ArticleList>
       </Styled.ArticlesSection>
+      <Styled.Background>{"< / >"}</Styled.Background>
     </Styled.Container>
   );
 };
